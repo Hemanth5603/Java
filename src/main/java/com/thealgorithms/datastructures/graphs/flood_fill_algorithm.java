@@ -3,8 +3,7 @@ import java.util.*;
 import java.awt.Point;
 public class Main
 {
-	// Function that returns true if
-	// the given pixel is valid
+	
 	static boolean isValid(int[][] screen, int m, int n, int x, int y, int prevC, int newC)
 	{
 		if(x < 0 || x >= m || y < 0 || y >= n || screen[x][y] != prevC
